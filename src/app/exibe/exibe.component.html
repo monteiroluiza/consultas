@@ -1,0 +1,18 @@
+<hr>
+<table>
+  <tr>VALORES: </tr>
+    <tr *ngFor="let Precos of preco">
+        <td>{{ preco }}</td>
+    </tr>
+  <tr>NOMES: </tr>
+    <tr *ngFor="let Nomes of nome">
+      <td>{{ nome }}</td>
+    </tr>
+  <tr>DATAS: </tr>
+    <tr *ngFor="let Datas of data">
+        <td>{{ data }}</td>
+    </tr>
+  </table>
+  
+  <button type="button" class="clear"
+  (click)="cancelar()"> CLEAR </button>
